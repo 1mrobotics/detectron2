@@ -171,6 +171,10 @@ setup(
         # opencv themselves, preferrably by OS's package manager, or by
         # choosing the proper pypi package name at https://github.com/skvark/opencv-python
         # Also, avoid adding dependencies that transitively depend on pytorch or opencv.
+        "torch==2.1.1", 
+        "torchvision==0.16.1", 
+        "torchaudio==2.1.1",
+        
         # ------------------------------------------------------------
         # The following are pure-python dependencies that should be easily installable.
         # But still be careful when adding more: fewer people are able to use the software
