@@ -204,7 +204,7 @@ setup(
             "shapely",
             "pygments>=2.2",
             "psutil",
-            "panopticapi @ https://github.com/cocodataset/panopticapi/archive/master.zip",
+            "panopticapi",
         ],
         # dev dependencies. Install them by `pip install 'detectron2[dev]'`
         "dev": [
